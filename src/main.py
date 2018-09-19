@@ -7,6 +7,21 @@ rpt = Report()
 import sys
 import csv
 
+#reset
+rpt.all.count = 0
+rpt.all.total_pay = 0
+rpt.all.total_estab = 0
+rpt.all.total_empl = 0
+rpt.soft.count = 0
+rpt.soft.total_pay = 0
+rpt.soft.total_empl = 0
+
+#variables for maxes
+all_max_annual_wage_amt = 0
+all_max_annual_wage_id = 0
+
+
+
 
 
 singlefile = None
@@ -32,9 +47,36 @@ file = sys.argv[1] + "/2017.annual.singlefile.csv"
 
 fipsfile = open(file)
 area_titles_reader = csv.reader(fipsfile, delimiter=',')
-line_count = 1
-    for row in area_titles_reader:
-        fips = row[0]
+
+
+first_line = True
+
+for row in area_titles_reader:
+    #Dont count first line (column titles)
+    if first_line == True:
+        first_line = False
+        continue
+    fips = row[0]
+    # Dont count fips with 000, C, or US
+    if fips[2:] == "000" or fips[0:1] == "C" or fips[0:2] == "US":
+        continue
+    if row[1] == "0" and row[2] == "10":
+        #Get Stats Over All
+        rpt.all.count += 1
+        rpt.all.total_pay += int(row[10])
+        rpt.all.total_estab += int(row[8])
+        rpt.all.total_empl += int(row[9])
+        #Get highest wage
+        if (int(row[10]) > all_max_annual_wage_amt):
+
+
+
+
+
+
+
+
+
 
 
 
