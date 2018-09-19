@@ -32,9 +32,13 @@ file = sys.argv[1] + "/2017.annual.singlefile.csv"
 
 fipsfile = open(file)
 area_titles_reader = csv.reader(fipsfile, delimiter=',')
-line_count = 0
-for row in area_titles_reader:
-    print(row[0])
+line_count = 1
+    for row in area_titles_reader:
+        fips = row[0]
+
+
+
+
 
 
 
@@ -46,3 +50,4 @@ for row in area_titles_reader:
 
 # By the time you submit your work to me, this should be the *only* output your
 # entire program produces.
+print(rpt)
