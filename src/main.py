@@ -291,6 +291,32 @@ soft_empl_list.sort(key=operator.itemgetter(1), reverse=True)
 soft_empl_top5 = [soft_empl_list[0], soft_empl_list[1], soft_empl_list[2], soft_empl_list[3], soft_empl_list[4]]
 rpt.soft.top_annual_avg_emplvl = soft_empl_top5
 
+#cash county
+for i in range(len(all_wage_list)):
+    wages = all_wage_list[i]
+    estab = all_estab_list[i]
+    empl = all_empl_list[i]
+    if wages[0] == "Cache County, Utah":
+        rpt.all.cache_co_pay_rank = i + 1
+    if estab[0] == "Cache County, Utah":
+        rpt.all.cache_co_estab_rank = i + 1
+    if empl[0] == "Cache County, Utah":
+        rpt.all.cache_co_empl_rank = i + 1
+
+# Cache County's Rank for software publishing 
+for i in range(len(soft_wage_list)):
+    wages = soft_wage_list[i]
+    estab = soft_estab_list[i]
+    empl = soft_empl_list[i]
+    if wages[0] == "Cache County, Utah":
+        rpt.soft.cache_co_pay_rank = i + 1
+    if estab[0] == "Cache County, Utah":
+        rpt.soft.cache_co_estab_rank = i + 1
+    if empl[0] == "Cache County, Utah":
+        rpt.soft.cache_co_empl_rank = i + 1
+        
+
+
 
 
 
