@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ee06c66-4b98-41c7-b349-d478fb6d5906" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Report.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/Report.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,46 +12,48 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/cs1440_falor_erik_assn1$main.coverage" NAME="main Coverage Results" MODIFIED="1538527156652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/cs1440_falor_erik_assn1$Assn2.coverage" NAME="Assn2 Coverage Results" MODIFIED="1538527232020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cs1440_falor_erik_assn1$demo.coverage" NAME="demo Coverage Results" MODIFIED="1538617318288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cs1440_falor_erik_assn1$main.coverage" NAME="main Coverage Results" MODIFIED="1538617606946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/cs1440_falor_erik_assn1$Assn2.coverage" NAME="short Coverage Results" MODIFIED="1538631462270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="261682940">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.6" value="5" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="3" />
-          <entry key="py" value="5" />
+          <entry key="csv" value="4" />
+          <entry key="py" value="7" />
+          <entry key="txt" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="5" />
+          <entry key="CSV" value="2" />
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="235" />
-          <entry key="py" value="3914" />
+          <entry key="py" value="6266" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="4149" />
+          <entry key="Python" value="6501" />
         </counts>
       </usages-collector>
     </session>
@@ -65,8 +66,22 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="224">
+              <caret line="239" column="12" lean-forward="true" selection-start-line="239" selection-start-column="12" selection-end-line="239" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/short/area_titles.csv">
+          <provider selected="true" editor-type-id="csv-text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/short/output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="33" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -74,8 +89,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Report.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            <state>
+              <caret line="105" column="14" lean-forward="true" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-680" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../../../../Desktop/brandons code/cs1440-foos-brandon-assn1/src/main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="87" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -85,13 +116,22 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>int(fips)</find>
+      <find>distinct</find>
       <find>wage</find>
+      <find>10</find>
       <find>all</find>
+      <find>8</find>
+      <find>operator</find>
+      <find>annual_wages</find>
     </findStrings>
     <replaceStrings>
       <replace>fips</replace>
       <replace>estab</replace>
+      <replace>unique</replace>
+      <replace>empl</replace>
+      <replace>wage_values</replace>
       <replace>soft</replace>
+      <replace>9</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -102,6 +142,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Report.py" />
+        <option value="$PROJECT_DIR$/../../../../../../Desktop/brandons code/cs1440-foos-brandon-assn1/src/main.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
       </list>
     </option>
@@ -113,7 +154,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1905" />
+    <option name="x" value="1500" />
+    <option name="y" value="175" />
     <option name="width" value="1950" />
     <option name="height" value="2075" />
   </component>
@@ -122,7 +164,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -132,12 +173,38 @@
             </path>
             <path>
               <item name="cs1440-falor-erik-assn1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs1440-falor-erik-assn1" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs1440-falor-erik-assn1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs1440-falor-erik-assn1" type="462c0819:PsiDirectoryNode" />
+              <item name="ohio_only" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs1440-falor-erik-assn1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs1440-falor-erik-assn1" type="462c0819:PsiDirectoryNode" />
+              <item name="short" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs1440-falor-erik-assn1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs1440-falor-erik-assn1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs1440-falor-erik-assn1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cs1440-falor-erik-assn1" type="462c0819:PsiDirectoryNode" />
+              <item name="utah_only" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cs1440-falor-erik-assn1" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -145,7 +212,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Python" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -164,8 +231,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Assn2">
-    <configuration name="Assn2" type="PythonConfigurationType" factoryName="Python">
+  <component name="RunManager" selected="Python.short">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python">
       <module name="cs1440-falor-erik-assn1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -178,8 +245,8 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
-      <option name="PARAMETERS" value="short" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/demo.py" />
+      <option name="PARAMETERS" value="data" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -209,9 +276,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="short" type="PythonConfigurationType" factoryName="Python">
+      <module name="cs1440-falor-erik-assn1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\hp\Anaconda3\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="short" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.Assn2" />
+      <item itemvalue="Python.short" />
+      <item itemvalue="Python.demo" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -238,13 +328,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978903" visible="true" weight="0.13346747" />
-      <window_info id="Structure" order="1" sideWeight="0.4978903" weight="0.24949698" />
-      <window_info id="Favorites" order="2" sideWeight="0.5021097" weight="0.24949698" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978903" weight="0.14151576" />
+      <window_info id="Favorites" order="1" sideWeight="0.5021097" weight="0.24949698" />
+      <window_info id="Structure" order="2" sideWeight="0.4978903" visible="true" weight="0.24949698" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33002833" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34985834" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -273,17 +364,42 @@
     <entry file="file://$PROJECT_DIR$/../../Assn 1.1/cs1440-falor-erik-assn1/src/Report.py" />
     <entry file="file://$PROJECT_DIR$/data/2017.annual.singlefile.csv" />
     <entry file="file://$PROJECT_DIR$/../../Temp/cs1440-falor-erik-assn1/src/main.py" />
-    <entry file="file://$PROJECT_DIR$/src/main.py">
+    <entry file="file://$PROJECT_DIR$/data/output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="38" selection-start-line="38" selection-end-line="38" />
-        </state>
+        <state relative-caret-position="-680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Report.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        <state>
+          <caret line="105" column="14" lean-forward="true" selection-start-line="105" selection-start-column="14" selection-end-line="105" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/short/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="29" column="40" lean-forward="true" selection-start-line="29" selection-start-column="40" selection-end-line="33" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../../Desktop/brandons code/cs1440-foos-brandon-assn1/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="87" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/short/area_titles.csv">
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="239" column="12" lean-forward="true" selection-start-line="239" selection-start-column="12" selection-end-line="239" selection-end-column="12" />
         </state>
       </provider>
     </entry>
