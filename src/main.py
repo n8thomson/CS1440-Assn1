@@ -168,6 +168,10 @@ for row in singlefile_reader:
         rpt.soft.count += 1
         rpt.soft.total_pay += int(row[10])
 
+        soft_wage_list.append((fips, int(row[10])))
+        soft_estab_list.append((fips, int(row[8])))
+        soft_empl_list.append((fips, int(row[9])))
+
         # getting the amount of distinct values of annual wadges
         if row[10] in soft_distinct_wage_values and row[10] in soft_unique_wage_values:
             # Remove not unique values
@@ -253,6 +257,14 @@ for i in range(len(all_empl_list)):
 for i in range(len(all_estab_list)):
     all_estab_list[i] = (area_titles[all_estab_list[i][0]],  all_estab_list[i][1])
 
+for i in range(len(soft_wage_list)):
+    soft_wage_list[i] = (area_titles[soft_wage_list[i][0]], soft_wage_list[i][1])
+
+for i in range(len(soft_empl_list)):
+    soft_empl_list[i] = (area_titles[soft_empl_list[i][0]], soft_empl_list[i][1])
+
+for i in range(len(soft_estab_list)):
+    soft_estab_list[i] = (area_titles[soft_estab_list[i][0]], soft_estab_list[i][1])
 
 #Get the top 5 and establish
 all_wage_list.sort(key=operator.itemgetter(1), reverse=True)
@@ -266,6 +278,18 @@ rpt.all.top_annual_estab = all_estab_top5
 all_empl_list.sort(key=operator.itemgetter(1), reverse=True)
 all_empl_top5 = [all_empl_list[0], all_empl_list[1], all_empl_list[2], all_empl_list[3], all_empl_list[4]]
 rpt.all.top_annual_avg_emplvl = all_empl_top5
+
+soft_wage_list.sort(key=operator.itemgetter(1), reverse=True)
+soft_wage_top5 = [soft_wage_list[0], soft_wage_list[1], soft_wage_list[2], soft_wage_list[3], soft_wage_list[4]]
+rpt.soft.top_annual_wages = soft_wage_top5
+
+soft_estab_list.sort(key=operator.itemgetter(1), reverse=True)
+soft_estab_top5 = [soft_estab_list[0], soft_estab_list[1], soft_estab_list[2], soft_estab_list[3], soft_estab_list[4]]
+rpt.soft.top_annual_estab = soft_estab_top5
+
+soft_empl_list.sort(key=operator.itemgetter(1), reverse=True)
+soft_empl_top5 = [soft_empl_list[0], soft_empl_list[1], soft_empl_list[2], soft_empl_list[3], soft_empl_list[4]]
+rpt.soft.top_annual_avg_emplvl = soft_empl_top5
 
 
 
